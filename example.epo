@@ -1,0 +1,27 @@
+x = (2 * 6) / 3;
+y = 3;
+
+FUNKCIO avg(a, b) {
+    x = (a + b) / 2;
+    REVENI x;
+}
+
+result = avg(12, 2);
+PRESI result;
+
+SE (NE(x > y)) {
+    PRESI "#{x} > #{y}";
+} ALIE {
+    PRESI "#{x} <é menor que> #{y}";
+}
+
+-*- This is a comment
+
+DUM (x <= 15) {
+    x = x + 1;
+    PRESI "x = #{x}";
+}
+
+POR (i, 0, 10) {
+    PRESI "Loop numero #{i}";
+}
