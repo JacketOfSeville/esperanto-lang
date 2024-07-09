@@ -1,0 +1,6 @@
+# Compilation residue
+/lex.yy.c
+/translator.exe
+/translator.tab.c
+/translator.tab.h
+/*.js

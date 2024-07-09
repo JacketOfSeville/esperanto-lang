@@ -1,0 +1,46 @@
+LASU x = (2 * 6) / 3;
+LASU y = 3;
+LASU result = 0;
+
+-*- This is a comment
+
+FUNKCIO pow(base, exp) {
+    LASU power = 1;
+    POR (i, 0, exp-1) {
+        power = power * base;
+    }
+
+    REVENI power;
+}
+
+FUNKCIO avg(a, b) {
+    LASU average = (a + b) / 2;
+    REVENI average;
+}
+
+-*- This is also a comment
+
+result = avg(12, 2);
+PRESI result;
+
+result = pow(2, 3);
+PRESI result;
+
+-*- This is yet another comment
+
+SE (NE(x >= y)) {
+    PRESI "${x} > ${y}";
+} ALIE {
+    PRESI "${x} < ${y}";
+}
+
+-*- This is, also, yet another comment
+
+DUM (x <= 15) {
+    x = x + 1;
+    PRESI "x = ${x}";
+}
+
+POR (i, 0, 7) {
+    PRESI "Loop numero ${i}";
+}
