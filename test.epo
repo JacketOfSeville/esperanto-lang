@@ -29,9 +29,9 @@ PRESI result;
 -*- This is yet another comment
 
 SE (NE(x >= y)) {
-    PRESI "${x} > ${y}";
-} ALIE {
     PRESI "${x} < ${y}";
+} ALIE {
+    PRESI "${x} >= ${y}";
 }
 
 -*- This is, also, yet another comment
